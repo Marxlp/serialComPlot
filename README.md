@@ -1,2 +1,5 @@
-# serialComPlot
-Tool to plot data reading from serial port on Windows
+# serialComPlot 
+A Tool to plot data reading from serial port on Windows
+##Licence 
+LGPL-3.0
+
