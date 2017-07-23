@@ -58,9 +58,9 @@ namespace serialComPlot
             cbBaudrate.SelectedIndex = 0;
 
             string[] str = SerialPort.GetPortNames();
-            if(str == null)
+            if(str.Length == 0)
             {
-                MessageBox.Show("本机没有串口", "Error");
+               
                 return;
             }
             foreach(string s in System.IO.Ports.SerialPort.GetPortNames())
